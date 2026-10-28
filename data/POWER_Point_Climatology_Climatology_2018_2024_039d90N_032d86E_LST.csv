@@ -1,0 +1,19 @@
+-BEGIN HEADER-
+NASA/POWER Source Native Resolution Climatology in LST
+7-year Meteorological and Solar Monthly & Annual Climatologies (January 2018 - December 2024) 
+Location: Latitude  39.8958   Longitude 32.862 
+Elevation from MERRA-2: Average for 0.5 x 0.625 degree lat/lon region = 1128.1 meters
+The value for missing source data that cannot be computed or is outside of the sources availability range: -999 
+Parameter(s): 
+ALLSKY_SFC_SW_DWN     SRB V4/CERES SYN1deg All Sky Surface Shortwave Downward Irradiance (kW-hr/m^2/day) 
+CLRSKY_SFC_SW_DWN     SRB V4/CERES SYN1deg Clear Sky Surface Shortwave Downward Irradiance (kW-hr/m^2/day) 
+WS10M                 MERRA-2 Wind Speed at 10 Meters (m/s) 
+WS50M_MAX             MERRA-2 Wind Speed at 50 Meters Maximum (m/s) 
+Message(s): 
+The requested parameters are computed for a custom climatological period (January 2018 - December 2024) 
+-END HEADER-
+PARAMETER,JAN,FEB,MAR,APR,MAY,JUN,JUL,AUG,SEP,OCT,NOV,DEC,ANN
+ALLSKY_SFC_SW_DWN,1.9666,2.9215,4.0945,5.4838,6.4432,7.0965,7.6668,6.8641,5.4279,3.9209,2.5711,1.7234,4.6896
+CLRSKY_SFC_SW_DWN,3.0148,4.1478,5.6338,7.0143,7.9405,8.3411,8.1902,7.2259,5.9339,4.458,3.2181,2.6342,5.6519
+WS10M,3.45,3.47,3.62,3.5,2.91,2.85,3.46,3.42,3.2,2.81,3.13,2.94,3.23
+WS50M_MAX,16.34,17.94,17.06,18.43,14.49,10.61,10.91,12.11,11.34,14.15,23.03,17.46,23.03
